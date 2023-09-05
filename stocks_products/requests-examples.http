@@ -101,3 +101,8 @@ Content-Type: application/json
 # поиск складов, где есть определенный продукт
 GET {{baseUrl}}/stocks/?search=хлеб
 Content-Type: application/json
+
+###
+# использование пагинации
+GET {{baseUrl}}/stocks/?page=4
+Content-Type: application/json
